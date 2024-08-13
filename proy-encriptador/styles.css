@@ -1,0 +1,155 @@
+*{
+    background-color: #E5E5E5;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+
+.logo{
+    padding-top: 2%;
+    margin-left: 1%;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 1%;
+    margin-left: 10%;
+
+}
+
+.section-initial{
+    margin: 2% 0% 0% 0%;
+}
+
+.section-result{
+    position:relative
+}
+
+.text-initial{
+    border: none;
+    color: #0A3871;
+    margin-top: 8%;
+    text-transform: lowercase;
+
+}
+
+::placeholder { 
+    color: #0A3871
+}
+
+.text-initial:focus {
+    outline: none;
+}
+
+
+.text-result{
+    width: 20rem;
+    height: 21em;
+    background: white;
+    background-image: url("/assets/logo-t-result.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 25%;
+    position: relative
+}
+
+
+.text-result:focus{
+    outline: none;
+}
+
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+    gap: 2%;
+}
+
+.boton-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 2%;
+    width: 50%;
+
+}
+
+.boton-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 3%;
+    width: 50%;
+}
+
+.boton-copiar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 15rem;
+    position: absolute;
+    margin-left: 7rem;
+    margin-top: -9.5rem;
+    
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+.footer{
+    height: 100px;
+    color: #495057;
+    font-size: 4%;
+    text-align: center;
+    
+}
+
+@media (max-width: 1200px) {
+
+    .section-general{
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-initial{
+        margin: 1% 8% 8% 0%;
+    }
+    .text-result{
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 93%;
+        height: 10em;
+        background-image: none;
+        border-radius: 24px;
+        color:#0A3871;
+        margin-bottom: 15%;
+        position: relative
+    }
+
+    .boton-copiar{
+        height: 11%;
+        width: 90%;
+        margin-top: -24%;
+        margin-left: 1%;
+        
+    }
+}
+
+
+
